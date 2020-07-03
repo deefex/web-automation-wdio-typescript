@@ -2,7 +2,7 @@
 
 This is a web browser automation demo which uses a fairly standard page object model and runs some browser tests
 against the wonderful [The Internet](https://the-internet.herokuapp.com/) site using Typescript and Webdriverio v6. 
-There is a Javascript only version in a similarly named repo [here](https://github.com/deefex/web-automation-wdio-javascript)
+There is a Javascript only version in a similarly named repo here - [web-automation-wdio-javascript](https://github.com/deefex/web-automation-wdio-javascript)
 
 Test examples cover such issues as:
 * A/B Testing
