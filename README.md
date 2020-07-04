@@ -11,7 +11,7 @@ Test examples cover such issues as:
 * Challenging DOMs
 * Checkbox Manipulation
 * Drag & Drop Operations
-* Dropdown Lists - TODO
+* Dropdown Lists
 * Dynamic Content - TODO
 * Exit Intent (mouse out)  - TODO
 * File Upload (TODO - needs completing)
