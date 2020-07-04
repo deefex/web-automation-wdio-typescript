@@ -14,6 +14,7 @@ Test examples cover such issues as:
 * Dropdown Lists
 * Dynamic Content
 * Dynamic Controls
+* Dynamic Loading
 * Exit Intent (mouse out)  - TODO
 * File Upload (TODO - needs completing)
 * Login Page - TODO
