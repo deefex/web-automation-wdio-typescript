@@ -6,9 +6,9 @@ There is a Javascript only version in a similarly named repo here - [web-automat
 
 Test examples cover such issues as:
 * A/B Testing
-* Basic Authentication - TODO
-* Broken Images - TODO
-* Challenging DOMs - TODO
+* Basic Authentication
+* Broken Images
+* Challenging DOMs
 * Checkbox Manipulation - TODO
 * Drag & Drop Operations - TODO
 * Dropdown Lists - TODO
@@ -28,14 +28,14 @@ Test examples cover such issues as:
 
 ## Execution
 Execution on your local machine only (for now).
-* `npm run test` to run the tests
-* `npm run test:report` to run the tests with allure reporting (this creates a local directory, `allure-report` then 
-opens it in the browser)
+* `npm run compile` to compile the typescript
+* `npm run test` to run the compiled code
+* `npm run compile:test` to do all that
 
 ## Known Issues
-* Let me know :-)
+* Not sure that wdio can handle basic auth
 
 ## TODO
-* Finish porting the tests from Javascript
-* Enhance the allure reporting. It's very basic at the moment.
-* Include screenshots in the reporting when failures occur.
+* Add allure reporting
+* Basic Auth - check if wdio v6 can handle basic auth
+* Confirm the browser window is being closed after each test spec - wdio `after` hook
