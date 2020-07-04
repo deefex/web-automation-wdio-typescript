@@ -9,7 +9,7 @@ Test examples cover such issues as:
 * Basic Authentication
 * Broken Images
 * Challenging DOMs
-* Checkbox Manipulation - TODO
+* Checkbox Manipulation
 * Drag & Drop Operations - TODO
 * Dropdown Lists - TODO
 * Dynamic Content - TODO

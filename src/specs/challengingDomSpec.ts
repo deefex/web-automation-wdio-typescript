@@ -1,4 +1,3 @@
-import brokenImagesPage from "src/model/pages/brokenImagesPage";
 import challengingDomPage from "src/model/pages/challengingDomPage";
 import { expect } from 'chai';
 
