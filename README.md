@@ -12,7 +12,8 @@ Test examples cover such issues as:
 * Checkbox Manipulation
 * Drag & Drop Operations
 * Dropdown Lists
-* Dynamic Content - TODO
+* Dynamic Content
+* Dynamic Controls
 * Exit Intent (mouse out)  - TODO
 * File Upload (TODO - needs completing)
 * Login Page - TODO
@@ -38,4 +39,5 @@ Execution on your local machine only (for now).
 ## TODO
 * Add allure reporting
 * Basic Auth - check if wdio v6 can handle basic auth
+* Dynamic controls - selector syntax
 * Confirm the browser window is being closed after each test spec - wdio `after` hook

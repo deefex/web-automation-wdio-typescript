@@ -26,7 +26,7 @@ class DynamicContentPage extends BasePage {
         this.pageHeading.waitForDisplayed({
             timeout: undefined,
             reverse: false,
-            timeoutMsg: "dropdownPage: Mandatory element not found."
+            timeoutMsg: "dynamicContentPage: Mandatory element not found."
         });
     }
 
