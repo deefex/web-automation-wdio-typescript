@@ -10,7 +10,7 @@ Test examples cover such issues as:
 * Broken Images
 * Challenging DOMs
 * Checkbox Manipulation
-* Drag & Drop Operations - TODO
+* Drag & Drop Operations
 * Dropdown Lists - TODO
 * Dynamic Content - TODO
 * Exit Intent (mouse out)  - TODO

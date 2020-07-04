@@ -25,6 +25,7 @@
     "@wdio/sync": "^6.1.14",
     "chai": "^4.2.0",
     "chromedriver": "^83.0.0",
+    "html-dnd": "^1.2.1",
     "ts-node": "^8.10.2",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.9.6",
