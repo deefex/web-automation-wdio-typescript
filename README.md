@@ -15,9 +15,9 @@ Test examples cover such issues as:
 * Dynamic Content
 * Dynamic Controls
 * Dynamic Loading
-* Exit Intent (mouse out)
-* File Upload (TODO - needs completing)
-* Login Page - TODO
+* Exit Intent
+* File Upload 
+* Login Page
 
 ## Requirements
 * Use nodeJS LTS v12.18.1 or above
