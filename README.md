@@ -41,6 +41,5 @@ Execution on your local machine only (for now).
 * Add allure reporting
 * Basic Auth - check if wdio v6 can handle basic auth
 * Dynamic controls - selector syntax
-* Find alternative to chooseFile for File Upload Spec
 * Send info to log file instead of polluting stdout
 * Confirm the browser window is being closed after each test spec - wdio `after` hook

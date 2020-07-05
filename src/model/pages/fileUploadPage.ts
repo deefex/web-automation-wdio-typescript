@@ -1,4 +1,5 @@
 import {BasePage} from "src/model/pages/basePage";
+import path = require("path")
 
 class FileUploadPage extends BasePage {
 
@@ -30,6 +31,16 @@ class FileUploadPage extends BasePage {
             reverse: false,
             timeoutMsg: "fileUploadPage: Mandatory element not found."
         });
+    }
+
+    // Older versions of wdio used to use chooseFile which is no longer supported. For more
+    // up to date information, visit https://webdriver.io/blog/2019/06/25/file-upload.html
+    uploadFile(): void {
+        let toUpload = path.join(__dirname, '..', '..', '..', 'resources', 'spider-man.png');
+        let filePath = browser.uploadFile(toUpload);
+        this.chooseButton.setValue(filePath);
+        this.uploadButton.click();
+        this.waitForMessage();
     }
 
     waitForMessage(): void {

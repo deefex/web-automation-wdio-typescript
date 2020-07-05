@@ -18,7 +18,7 @@ exports.config = {
     //
     specs: [
         './tsrc/specs/**/*.js'
-        // './tsrc/specs/**/brokenImagesSpec.js',
+        // './tsrc/specs/**/fileUploadSpec.js',
         // './tsrc/specs/**/challengingDomSpec.js'
     ],
     // Patterns to exclude.
