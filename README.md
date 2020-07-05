@@ -36,10 +36,13 @@ Execution on your local machine only (for now).
 
 ## Known Issues
 * Not sure that wdio can handle basic auth
+* https://github.com/ccharnkij/webdriverio/tree/bug_fix_allure_unknown_status
+* https://github.com/webdriverio/webdriverio/pull/5040
+The allure reporter is showing beforeEach & afterEach hooks as passed (?) and subsequent tests as Unknown.
+* https://github.com/webdriverio-boneyard/wdio-allure-reporter/issues/128
+Issue with allure marking test hooks as passed tests
 
 ## TODO
-* Add allure reporting
 * Basic Auth - check if wdio v6 can handle basic auth
 * Dynamic controls - selector syntax
 * Send info to log file instead of polluting stdout
-* Confirm the browser window is being closed after each test spec - wdio `after` hook

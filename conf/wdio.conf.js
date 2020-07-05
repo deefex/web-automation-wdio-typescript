@@ -18,6 +18,7 @@ exports.config = {
     //
     specs: [
         './tsrc/specs/**/*.js'
+        // './tsrc/specs/**/abTestSpec.js'
         // './tsrc/specs/**/fileUploadSpec.js',
         // './tsrc/specs/**/challengingDomSpec.js'
     ],
@@ -57,7 +58,7 @@ exports.config = {
         browserName: 'chrome',
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
-        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
+        excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
     }],
     //
@@ -126,7 +127,12 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec'],
+    reporters: ['spec', ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: false,
+        disableWebdriverScreenshotsReporting: false,
+        }]
+    ],
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
@@ -213,8 +219,13 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+        if (error) {
+            // let errorShot = 'ERROR-chrome-' + Date.now();
+            // browser.saveScreenshot('./errorShots/' + errorShot + '.png');
+            browser.takeScreenshot();
+        }
+    },
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details
