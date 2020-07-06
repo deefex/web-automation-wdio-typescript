@@ -30,9 +30,8 @@ Test examples cover such issues as:
 
 ## Execution
 Execution on your local machine only (for now).
-* `npm run compile` to compile the typescript
-* `npm run test` to run the compiled code
-* `npm run compile:test` to do all that
+* `npm run test` to compile the typescript and run the code
+* `npm run test:report` to do the above and generate an (allure) html report
 
 ## Known Issues
 * Not sure that wdio can handle basic auth
