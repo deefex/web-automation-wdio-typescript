@@ -29,7 +29,7 @@
     "@wdio/sync": "^6.1.14",
     "allure-commandline": "^2.13.0",
     "chai": "^4.2.0",
-    "chromedriver": "^83.0.0",
+    "chromedriver": "^105.0.1",
     "html-dnd": "^1.2.1",
     "npm-run-all": "^4.1.5",
     "ts-node": "^8.10.2",
